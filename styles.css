@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top Section Below Header */
+.intro {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.calc-links {
+    flex: 70%;
+    padding-right: 10px;
+}
+
+.interest-calcs {
+    flex: 30%;
+    padding-left: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Basic Needs Section */
+.basic-needs {
+    background-color: #e9ecef;
+    padding: 20px;
+    text-align: center;
+}
+
+.basic-needs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.basic-needs h2 {
+    margin-bottom: 15px;
+}
+
+.basic-needs p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .calc-links, .interest-calcs {
+        flex: 1;
+        padding: 0;
+    }
+}
+
+/* About Us, Contact, Privacy Policy, Terms of Service */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+.contact-container ul {
+    padding: 0;
+}
+
+.contact-container li {
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 16px;
+    }
+}
+

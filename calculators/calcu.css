@@ -1,0 +1,294 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Calculator Info Section */
+.calculator-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.key-terms {
+    margin-top: 20px;
+}
+
+.key-terms ul {
+    padding: 0;
+}
+
+/* Calculator Section */
+.calculator {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.calculator-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Related Calculators Section */
+.related-calculators {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.related-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.related-calculators a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.related-calculators a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .calculator-info, .calculator, .related-calculators {
+        padding: 15px;
+    }
+
+    .calculator-container {
+        width: 100%;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Calculator Intro */
+.calculator-intro-container {
+    text-align: center;
+}
+
+/* Calculator Info */
+.calculator-info-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.calculator-info-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.calculator-info-container li {
+    margin-bottom: 10px;
+}
+
+/* Calculator */
+.calculator-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.calculator-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.calculator-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.calculator-container button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.calculator-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Related Calculators */
+.related-calculators-container {
+    margin-top: 20px;
+}
+
+.related-calculators-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-calculators-container li {
+    margin-bottom: 10px;
+}
+
+.related-calculators-container a {
+    color: #3498db;
+}
+
+.related-calculators-container a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .calculator-info-container, .calculator-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .calculator-info-container ul {
+        padding-left: 15px;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+    padding: 20px;
+}
+
+.calculator-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.calculator-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.calculator-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.calculator-container button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.calculator-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Related Calculators */
+.related-calculators-container {
+    margin-top: 20px;
+}
+
+.related-calculators-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-calculators-container li {
+    margin-bottom: 10px;
+}
+
+.related-calculators-container a {
+    color: #3498db;
+}
+
+.related-calculators-container a:hover {
+    text-decoration: underline;
+}
